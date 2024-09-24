@@ -7,5 +7,5 @@ Pod::Spec.new do |s|
   s.author           = { 'Author Name' => 'Vinnie Hesener' }
   s.source           = { :git => 'https://github.com/HuangYuRun/Closures.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
-  s.source_files     = 'Closures/**/*.{h,m,swift}' # 根据你的项目结构调整
+  s.source_files     = 'Xcode/Closures/**/*.{h,m,swift}' # 根据你的项目结构调整
 end
